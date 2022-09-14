@@ -48,10 +48,19 @@ body {
 .calculatordisplay {
   background-color: white;
   color: black;
-  height: 70px;
+  height: 25px;
   font-size: 1.714285714em;
-  padding: 0.5em 0.75em;
+  padding: 0.5em 0.75em 0.7em;
   text-align: right;
+}
+.calculatordisplayleft{
+  background-color: white;
+  bottom: 100%;
+  color: black;
+  height: 5px;
+  font-size: 1em;
+  padding: 0em 1em 1em 0.5em !important;
+  text-align: left;
 }
 
 .calculatorkeys {
@@ -74,7 +83,7 @@ body {
 }
 
 #keyequal {
-  background-image: linear-gradient(
+   background-image: linear-gradient(
     to bottom right, #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%
   );
   background-size: 200% 200%;
